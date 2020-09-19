@@ -268,6 +268,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_VENDOR_MODULE := true
+LOCAL_SHARED_LIBRARIES := libc++ libc libcutils libdl liblog libm
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
