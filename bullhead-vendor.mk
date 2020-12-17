@@ -82,16 +82,13 @@ PRODUCT_PACKAGES += \
     RcsImsBootstraputil \
     Tycho \
     CNEService \
-    ConnMO \
     DCMO \
     DMConfigUpdate \
-    DMService \
     DiagMon \
     HotwordEnrollmentOKGoogleWCD9330 \
     HotwordEnrollmentTGoogleWCD9330 \
     HotwordEnrollmentXGoogleWCD9330 \
     LifeTimerService \
-    SprintDM \
     atfwd \
     qcrilmsgtunnel \
     cneapiclient \
@@ -99,6 +96,7 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     rcsimssettings \
     rcsservice
+
 PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/lge/bullhead/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
