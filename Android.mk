@@ -235,18 +235,6 @@ LOCAL_VENDOR_MODULE := true
 LOCAL_SHARED_LIBRARIES := libc++ libc libcutils libdl liblog libm
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := datastatusnotification
-LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES := proprietary/vendor/app/datastatusnotification/datastatusnotification.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
 #include $(CLEAR_VARS)
 #LOCAL_MODULE := ims
 #LOCAL_MODULE_OWNER := lge
